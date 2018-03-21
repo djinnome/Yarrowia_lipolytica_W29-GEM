@@ -197,3 +197,7 @@ C06142,1-Butanol,119.5,5.0,0.1,298.15,
 C07064,Lactulose,-934.20000000000005,5.0,0.1,298.15,
 C09306,Sulfur dioxide,-300.69999999999999,5.0,0.1,298.15,
 C80045,ethane,157.80000000000001,5.0,0.1,298.15,
+C01904,Arabitol,-426.4,5.0,0.1,298.15,Manually added from Equlibrator website
+C00231,Xylulose-5P,-1345.2,5.0,0.1,298.15,Manually added from Equlibrator website
+C00279,Erythrose-5P,-1235.4,5.0,0.1,298.15,Manually added from Equlibrator website
+C05382,Sedoheptulose-7P,1540.5,5.0,0.1,298.15,Manually added from Equlibrator website
