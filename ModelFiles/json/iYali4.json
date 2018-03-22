@@ -5444,7 +5444,7 @@
 "annotation":{
 "SBO":"SBO:0000247",
 "chebi":"CHEBI:58027",
-"kegg.compound":"C00661"
+"kegg.compound":"C00118"
 }
 },
 {
@@ -10223,7 +10223,7 @@
 "annotation":{
 "SBO":"SBO:0000247",
 "chebi":"CHEBI:18189",
-"kegg.compound":"C03736"
+"kegg.compound":"C00117"
 }
 },
 {
@@ -18643,7 +18643,8 @@
 "compartment":"c",
 "charge":0,
 "annotation":{
-"SBO":"SBO:0000247"
+    "SBO":"SBO:0000247",
+    "kegg.compound": "C00392"
 }
 },
 {
@@ -18724,7 +18725,8 @@
 "compartment":"c",
 "charge":0,
 "annotation":{
-"SBO":"SBO:0000247"
+    "SBO":"SBO:0000247",
+    "kegg.compound": "C01904"
 }
 },
 {
