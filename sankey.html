@@ -1,0 +1,87 @@
+<html>
+<body>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="sankey_multiple" style="width: 1200px; height: 300px;"></div>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["sankey"]});
+  google.charts.setOnLoadCallback(drawChart);
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Weight');
+  data.addRows(
+ [['NADPH',
+  'fatty-acyl-CoA synthase (n-C16:0CoA) (y002140)',
+  0.30133819866246064],
+ ['NADPH', 'C-4 methyl sterol oxidase (y000240)', 0.020381096399999996],
+ ['NADPH',
+  'L-aminoadipate-semialdehyde dehydrogenase (NADPH) (y000678)',
+  0.31542960000000003],
+ ['NADPH', 'C-22 sterol desaturase (NADP) (y000233)', 0.020381096399999996],
+ ['NADPH',
+  'cytochrome P450 lanosterol 14-alpha-demethylase (NADP) (y000317)',
+  0.06114328919999999],
+ ['NADPH',
+  'fatty-acyl-CoA synthase (n-C18:0CoA) (y002141)',
+  1.3339105048429023],
+ ['NADPH',
+  'C-3 sterol keto reductase (zymosterol) (y000237)',
+  0.020381096399999996],
+ ['NADPH', 'squalene synthase (y001012)', 0.020381096399999996],
+ ['NADPH', 'C-5 sterol desaturase (y000242)', 0.020381096399999996],
+ ['NADPH', 'glutamate dehydrogenase (NADP) (y000471)', 6.615680659200112],
+ ['NADPH', 'C-4 methyl sterol oxidase (y000239)', 0.020381096399999996],
+ ['NADPH',
+  'aspartate-semialdehyde dehydrogenase (y000219)',
+  0.6138600000000007],
+ ['NADPH', 'NADPH transport (y001964)', 0.04076219279992099],
+ ['NADPH', 'pyrroline-5-carboxylate reductase (y000957)', 0.21249],
+ ['NADPH', 'thioredoxin reductase (NADPH) (y001038)', 0.32770679999999996],
+ ['NADPH', 'sulfite reductase (NADPH2) (y001027)', 0.5524739999999999],
+ ['NADPH', 'C-14 sterol reductase (y000231)', 0.020381096399999996],
+ ['NADPH',
+  'hydroxymethylglutaryl CoA reductase (y000558)',
+  0.24457315679999997],
+ ['NADPH',
+  'C-4 sterol methyl oxidase (4,4-dimethylzymosterol) (y000241)',
+  0.06114328919999999],
+ ['NADPH',
+  'saccharopine dehydrogenase (NADP, L-glutamate forming) (y000989)',
+  0.31542960000000003],
+ ['NADPH', 'C-4 methyl sterol oxidase (y000238)', 0.020381096399999996],
+ ['NADPH', 'dihydrofolate reductase (y000344)', 0.036170520000000005],
+ ['NADPH',
+  '5,10-methylenetetrahydrofolate reductase (NADPH) (y000080)',
+  0.20049706439999998],
+ ['NADPH',
+  'C-3 sterol keto reductase (4-methylzymosterol) (y000236)',
+  0.020381096399999996],
+ ['NADPH', 'shikimate dehydrogenase (y000996)', 0.4004256],
+ ['methylenetetrahydrofolate dehydrogenase (NADP) (y000732)',
+  'NADPH',
+  0.42163587959999094],
+ ['glucose 6-phosphate dehydrogenase (y000466)', 'NADPH', 5.365013291352702],
+ ['phosphogluconate dehydrogenase (y000889)', 'NADPH', 5.365013291352702],
+ ['isocitrate dehydrogenase (NADP) (y000659)', 'NADPH', 0.5046495840000003],
+ ['C-3 sterol dehydrogenase (y000234)', 'NADPH', 0.020381096399999996],
+ ['prephenate dehydrogenase (NADP) (y000939)', 'NADPH', 0.13977119999999998]]   );
+
+    // Set chart options
+    var options = {
+      width: 900,
+        link: { color: { fill: '#d799ae' } },
+        node: { colors: [ '#a61d4c' ],
+                label: { color: '#871b47' } },
+      
+  };
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    chart.draw(data, options);
+   }
+</script>
+</body>
+</html>
