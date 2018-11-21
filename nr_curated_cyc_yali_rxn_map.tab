@@ -1,0 +1,32 @@
+RxnId	$Name	ID	Matches	Reactions	YarrowiaCycRxn	GeneName	RxnName	RxnEqn
+y001021	YALI0A14784g	G1FV3-31027	PWY2T-8	RXN-14971, RXN-15378, SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	YBR003W	succinate dehydrogenase (ubiquinone-6)	succinate + ubiquinone-6 <=> fumarate + ubiquinol-6
+y000449	YALI0A15972g	G1FV3-31076	PWY2T-8	F16BDEPHOS-RXN	F16BDEPHOS-RXN	YBR019C	fructose-bisphosphatase	D-fructose 1,6-bisphosphate + H2O --> D-fructose 6-phosphate + phosphate
+y000982	YALI0B06941g	G1FV3-29669	PWY2T-8	RIB5PISOM-RXN	RIB5PISOM-RXN	YPL091W	ribose-5-phosphate isomerase	D-ribulose 5-phosphate <=> ribose-5-phosphate
+y000889	YALI0B15598g	G1FV3-30054	PWY2T-8	RXN-9952, RXN-3341, 6PGLUCONDEHYDROG-RXN	6PGLUCONDEHYDROG-RXN	YDL238C	phosphogluconate dehydrogenase	6-phospho-D-gluconate + NADP(+) --> carbon dioxide + D-ribulose 5-phosphate + NADPH
+y000486	YALI0C06369g	G1FV3-28561	PWY2T-8	GAPOXNPHOSPHN-RXN	GAPOXNPHOSPHN-RXN	YDR481C	glyceraldehyde-3-phosphate dehydrogenase	glyceraldehyde 3-phosphate + NAD + phosphate <=> 1,3-bisphospho-D-glycerate + H+ + NADH
+y000451	YALI0C06776g	G1FV3-28580	PWY2T-8	FUMHYDR-RXN	FUMHYDR-RXN	YDR513W	fumarase	fumarate + H2O <=> (S)-malate
+y000984	YALI0C11880g	G1FV3-28814	PWY2T-8	RIBULP3EPIM-RXN	RIBULP3EPIM-RXN	YEL042W	ribulose 5-phosphate 3-epimerase	D-ribulose 5-phosphate <=> D-xylulose 5-phosphate
+y000091	YALI0C19085g	G1FV3-29120	PWY2T-8	6PGLUCONOLACT-RXN	6PGLUCONOLACT-RXN	YPL268W	6-phosphogluconolactonase	6-O-phosphono-D-glucono-1,5-lactone + H2O --> 6-phospho-D-gluconate + H+
+y001022	YALI0D04741g	G1FV3-27262	PWY2T-8	SUCCINATE--COA-LIGASE-GDP-FORMING-RXN, RXN-8988, SUCCCOASYN-RXN	SUCCCOASYN-RXN	YGL154C	succinate-CoA ligase (ADP-forming)	ADP + phosphate + succinyl-CoA --> ATP + coenzyme A + succinate
+y000668	YALI0D04741g	G1FV3-27262	PWY2T-8	SUCCINATE--COA-LIGASE-GDP-FORMING-RXN, RXN-8988, SUCCCOASYN-RXN	SUCCCOASYN-RXN	YGL154C	itaconate-CoA ligase (ADP-forming)	ATP + coenzyme A + itaconate <=> ADP + itaconyl-CoA + phosphate
+y000658	YALI0D06303g	G1FV3-27335	PWY2T-8	ISOCITRATE-DEHYDROGENASE-NAD+-RXN	ISOCITRATE-DEHYDROGENASE-NAD+-RXN	YGL191W	isocitrate dehydrogenase (NAD+)	isocitrate + NAD --> 2-oxoglutarate + carbon dioxide + NADH
+y002126	YALI0D09229g	G1FV3-27470	PWY2T-8	3PGAREARR-RXN	3PGAREARR-RXN	YGR032W	sedoheptulose bisphosphatase	sedoheptulose 1,7-bisphosphate --> phosphate + sedoheptulose 7-phosphate
+y000280	YALI0D09361g	G1FV3-27477	PWY2T-8	RXN-14047, ACONITATEDEHYDR-RXN, ACONITATEHYDR-RXN	ACONITATEHYDR-RXN	YGR061C	cis-aconitate(3-) to isocitrate	cis-aconitate + H2O <=> isocitrate
+y000302	YALI0D09361g	G1FV3-27477	PWY2T-8	RXN-14047, ACONITATEDEHYDR-RXN, ACONITATEHYDR-RXN	 ACONITATEDEHYDR-RXN	YGR061C	citrate to cis-aconitate(3-)	citrate <=> cis-aconitate + H2O
+y000892	YALI0D12400g	G1FV3-27619	PWY2T-8	PHOSGLYPHOS-RXN	PHOSGLYPHOS-RXN	YPR128C	phosphoglycerate kinase	1,3-bisphospho-D-glycerate + ADP <=> 3-phosphoglycerate + ATP
+y000886	YALI0D16357g	G1FV3-27785	PWY2T-8	6PFRUCTPHOS-RXN	6PFRUCTPHOS-RXN	YGR240C	phosphofructokinase	ATP + D-fructose 6-phosphate --> ADP + D-fructose 1,6-bisphosphate + H+
+y000713	YALI0D16753g	G1FV3-27802	PWY2T-8	MALATE-DEH-RXN	MALATE-DEH-RXN	YGR243W	malate dehydrogenase	(S)-malate + NAD <=> H+ + NADH + oxaloacetate
+y000961	YALI0D20768g	G1FV3-27986	PWY2T-8	PYRUVDEH-RXN, 1.8.1.4-RXN, RXN-7716, RXN-8629, RXN0-1132, RXN-7719	PYRUVDEH-RXN	YPR159W	pyruvate dehydrogenase	coenzyme A + NAD + pyruvate --> acetyl-CoA + carbon dioxide + NADH
+y000300	YALI0E00638g	G1FV3-24040	PWY2T-8	CITSYN-RXN	CITSYN-RXN	YHR208W	citrate synthase	acetyl-CoA + H2O + oxaloacetate --> citrate + coenzyme A + H+
+y001049	YALI0E06479g	G1FV3-24303	PWY2T-8	1TRANSKETO-RXN, 2TRANSKETO-RXN	1TRANSKETO-RXN	YJL045W	transketolase 1	D-xylulose 5-phosphate + ribose-5-phosphate <=> glyceraldehyde 3-phosphate + sedoheptulose 7-phosphate
+y001050	YALI0E06479g	G1FV3-24303	PWY2T-8	1TRANSKETO-RXN, 2TRANSKETO-RXN	2TRANSKETO-RXN	YJL045W	transketolase 2	D-erythrose 4-phosphate + D-xylulose 5-phosphate <=> D-fructose 6-phosphate + glyceraldehyde 3-phosphate
+y000322	YALI0E26004g	G1FV3-25178	PWY2T-8	RXN-8631, F16ALDOLASE-RXN	RXN-8631	YKR043C	D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase	D-fructose 1-phosphate <=> D-glyceraldehyde + dihydroxyacetone phosphate
+y000450	YALI0E26004g	G1FV3-25178	PWY2T-8	RXN-8631, F16ALDOLASE-RXN	F16ALDOLASE-RXN	YKR043C	fructose-bisphosphate aldolase	D-fructose 1,6-bisphosphate <=> dihydroxyacetone phosphate + glyceraldehyde 3-phosphate
+y001054	YALI0F05214g	G1FV3-25850	PWY2T-8	TRIOSEPISOMERIZATION-RXN	TRIOSEPISOMERIZATION-RXN	YLR355C	triose-phosphate isomerase	dihydroxyacetone phosphate <=> glyceraldehyde 3-phosphate
+y000467	YALI0F07711g	G1FV3-25969	PWY2T-8	PGLUCISOM-RXN	PGLUCISOM-RXN	YML004C	glucose-6-phosphate isomerase	D-glucose 6-phosphate <=> D-fructose 6-phosphate
+y000962	YALI0F09185g	G1FV3-26034	PWY2T-8	RXN-14117, RXN-14192, RXN-14207, PEPDEPHOS-RXN	PEPDEPHOS-RXN	YML075C	pyruvate kinase	ADP + H+ + phosphoenolpyruvate --> ATP + pyruvate
+y001048	YALI0F15587g	G1FV3-26320	PWY2T-8	TRANSALDOL-RXN	TRANSALDOL-RXN	YMR205C	transaldolase	glyceraldehyde 3-phosphate + sedoheptulose 7-phosphate <=> D-erythrose 4-phosphate + D-fructose 6-phosphate
+y000366	YALI0F16819g	G1FV3-26377	PWY2T-8	2PGADEHYDRAT-RXN	2PGADEHYDRAT-RXN	YMR241W	enolase	2-phospho-D-glyceric acid <=> H2O + phosphoenolpyruvate
+y002131	idp1	G1FV3-25800	PWY2T-8	ISOCITDEH-RXN, RXN-9951, RXN-8642	ISOCITDEH-RXN			
+y000719	mae1	G1FV3-24844	PWY2T-8	OXALODECARB-RXN, 1.1.1.39-RXN, MALIC-NADP-RXN	 MALIC-NADP-RXN			
+y000466	zwf-1	G1FV3-25023	PWY2T-8	GLU6PDEHYDROG-RXN, RXN-14819	GLU6PDEHYDROG-RXN			
