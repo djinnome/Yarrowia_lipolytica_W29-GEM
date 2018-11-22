@@ -1,0 +1,127 @@
+<html>
+<body>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="sankey_multiple" style="width: 1500px; height: 900px;"></div>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["sankey"]});
+  google.charts.setOnLoadCallback(drawChart);
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Weight');
+  data.addRows(
+[
+   [
+      "malic enzyme (NADP) (y000719)",
+      "NADPH citric acid idp1",
+      1.31328
+   ],
+   [
+      "isocitrate dehydrogenase (y002131)",
+      "NADPH citric acid mae1",
+      3.389184000000003
+   ],
+   [
+      "malic enzyme (NADP) (y000719)",
+      "NADPH citric acid wild-type",
+      3.4168319999999985
+   ],
+   [
+      "isocitrate dehydrogenase (y002131)",
+      "NADPH citric acid zwf1",
+      0.7107839999999999
+   ],
+   [
+      "malic enzyme (NADP) (y000719)",
+      "NADPH glucose idp1",
+      2.519172300000003
+   ],
+   [
+      "methylenetetrahydrofolate dehydrogenase (NADP) (y000733)",
+      "NADPH glucose idp1",
+      1.527803699999997
+   ],
+   [
+      "isocitrate dehydrogenase (y002131)",
+      "NADPH glucose mae1",
+      6.249590400000038
+   ],
+   [
+      "methylenetetrahydrofolate dehydrogenase (NADP) (y000733)",
+      "NADPH glucose mae1",
+      1.077129599999962
+   ],
+   [
+      "isocitrate dehydrogenase (y002131)",
+      "NADPH glucose wild-type",
+      8.363984159999912
+   ],
+   [
+      "methylenetetrahydrofolate dehydrogenase (NADP) (y000733)",
+      "NADPH glucose wild-type",
+      1.5994358400000785
+   ],
+   [
+      "isocitrate dehydrogenase (y002131)",
+      "NADPH glucose zwf1",
+      1.307145000000246
+   ],
+   [
+      "malic enzyme (NADP) (y000719)",
+      "NADPH malic acid idp1",
+      1.800576
+   ],
+   [
+      "isocitrate dehydrogenase (y002131)",
+      "NADPH malic acid mae1",
+      4.020479999999999
+   ],
+   [
+      "malic enzyme (NADP) (y000719)",
+      "NADPH malic acid wild-type",
+      4.787711999999999
+   ],
+   [
+      "malic enzyme (NADP) (y000719)",
+      "NADPH malic acid zwf1",
+      1.573632
+   ]
+]
+  );
+//       var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+//                 '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
+       var colors = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f'];
+       //  ['#b3e2cd','#fdcdac','#cbd5e8','#f4cae4','#e6f5c9'];
+       //var colors = ['#b3e2cd','#fdcdac','#cbd5e8','#f4cae4','#e6f5c9','#fff2ae'];
+       var options = {
+	   width: 1200,
+	   height: 600,
+           link: { color: { fill: '#d799ae' } },
+           node: { colors: [ '#a61d4c' ],
+		   label: { color: '#871b47' } },
+	   sankey: {
+	       iterations: 0,
+	       node: { label: { fontName: 'Helvetica',
+				fontSize: 15,
+				//bold: true,
+			      },
+		       colors: colors,
+		     },
+	       link: { color: { fillOpacity: 0.8, 
+		   		 },
+		   
+		       colorMode: 'gradient'},
+	   },
+      
+       };
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    chart.draw(data, options);
+   }
+</script>
+</body>
+</html>
