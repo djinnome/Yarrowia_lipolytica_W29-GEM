@@ -131,10 +131,11 @@
    ]
 ]
   );
-       var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
-                  '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
-
-
+//       var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+//                 '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
+       var colors = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f'];
+       //  ['#b3e2cd','#fdcdac','#cbd5e8','#f4cae4','#e6f5c9'];
+       //var colors = ['#b3e2cd','#fdcdac','#cbd5e8','#f4cae4','#e6f5c9','#fff2ae'];
        var options = {
 	   width: 1200,
 	   height: 600,
@@ -144,17 +145,18 @@
 	   sankey: {
 	       iterations: 0,
 	       node: { label: { fontName: 'Helvetica',
-				fontSize: 14,
+				fontSize: 15,
 				//bold: true,
 			      },
 		       colors: colors,
 		     },
-	       link: {// color: { stroke: 'grey',
-		      //		strokeWidth: 0.5 },
+	       link: { color: { fillOpacity: 0.8, 
+		   		 },
+		   
 		       colorMode: 'gradient'},
 	   },
       
-    };
+       };
 
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
