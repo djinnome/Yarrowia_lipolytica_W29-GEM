@@ -1,1 +1,20 @@
 Xrefs/chem_xref.tsv
+# Thumbnail
+._*
+
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Packaged app and toolbox files 
+*.mlappinstall 
+*.mltbx 
+
+# Excel temporary file
+~$*
+
